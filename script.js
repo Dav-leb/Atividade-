@@ -1,4 +1,4 @@
-const temperatura = document.getElementByid("temperatura");
+const temperatura = document.getElementById("temperatura");
 const resultado = document.getElementById("resultado");
 converter.addEventListener("click", function() {
   const valor = Number(temperatura.value);
